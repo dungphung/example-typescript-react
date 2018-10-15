@@ -18,15 +18,14 @@
 
 - Kết hợp generics và Hocs để kiểm tra kiểu dữ liệu
 - Có 2 loại HOCS chính:
-
-* Enhancers: dựa vào props được truyền vào để xử lý logic.
-* Injectors: tạo ra logic rồi chuyền thêm logic vào component được bọc.
+  - Enhancers: dựa vào props được truyền vào để xử lý logic.
+  - Injectors: tạo ra logic rồi chuyền thêm logic vào component được bọc.
 
 ## Render Props
 
-- Hạn chế của HOCs
+- Hạn chế của HOC:
 
-* Khó xác định props là của Hocs nào khi có nhiều Hocs lồng nhau.
-* Có khả năng xảy ra trùng tên trong props.
+  - Khó xác định props là của Hocs nào khi có nhiều Hocs lồng nhau.
+  - Có khả năng xảy ra trùng tên trong props.
 
 - Giải quyết hạn chế của HOCs
